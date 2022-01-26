@@ -15,7 +15,7 @@ label_file = data_dir/'labels.txt' # path dei label
 image_file = script_dir/'tests'/'sicosta.jpg' # nome della immagine da classificare 
 
 # Setup della TPU
-interpreter = make_interpreter(f"{model_file}")
+interpreter = make_interpreter(f"{model_file}") #model file non e una stringa, f"{model_file}" lo rende una stringa
 interpreter.allocate_tensors()
 
 # Add the following lines to find out the dimensions used for the model you have retrained, and then set the size of your test image to the same dimensions, using PIL.
