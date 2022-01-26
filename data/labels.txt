@@ -1,0 +1,2 @@
+0 nocosta
+1 costa
