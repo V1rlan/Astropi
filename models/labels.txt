@@ -1,0 +1,2 @@
+0 coast
+1 nocoast
